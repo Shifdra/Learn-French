@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" 
+	id="com.candevelops.learnfrench" versionCode="10" version="1.0.0">
+
+   <!-- Platform to output and version of PhoneGap Build -->
+   <gap:platform name="android"/>
+   <preference name="phonegap-version" value="3.7.0"/>
+
+   <!-- Accessing the InAppBrowser -->
+
+   <gap:plugin name="org.apache.cordova.inappbrowser"/>
+
+   <name>Learn French</name>
+
+   <description>
+      An app to help teach French.
+   </description>
+
+   <author href="http://candevelops.com" email="info@candevelops.com">
+      Cynthia Norman
+   </author>	
+</widget>
